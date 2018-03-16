@@ -13,7 +13,7 @@ body {
     "content"
     "footer";
   grid-template-columns: 1fr;
-  grid-template-rows: 2fr 1fr 6fr 1fr;
+  grid-template-rows: 2fr auto 7fr 1fr;
 }
 
 .site-container > header {
@@ -22,12 +22,11 @@ body {
   text-align: center;
   position: sticky;
   top: 0;
-  /* margin: auto; */
 }
 
 .site-container > nav {
   grid-area: nav;
-  background-color: rgb(161, 187, 117);
+  /* background-color: rgb(161, 187, 117); */
 }
 
 .site-container > .content-container {
@@ -41,11 +40,23 @@ body {
 }
 
 .site-container > .site-grid-item {
-  border-bottom: 1px black solid;
+  border-bottom: 1px rgb(199, 214, 224) solid;
 }
 
 /* HEADER SECTION */
 h1#name {
   font-size: 4em;
   font-family: 'Source Code Pro', monospace;
+}
+
+/* NAV SECTION */
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  text-transform: uppercase;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1em;
+  padding-right: 2em;
 }
