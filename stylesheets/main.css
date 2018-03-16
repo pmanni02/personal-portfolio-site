@@ -1,0 +1,40 @@
+body {
+  margin: 0 4vw;
+}
+
+/* SITE GRID LAYOUT */
+.site-container {
+  display: grid;
+  /* width: 100%; */
+  grid-template-areas:
+    "header"
+    "nav"
+    "content"
+    "footer";
+  grid-template-columns: 1fr;
+  grid-template-rows: 2fr 1fr 6fr 1fr;
+}
+
+.site-grid-item {
+  border-bottom: 1px black solid;
+}
+
+.site-container > header {
+  grid-area: header;
+  background-color: rgb(166, 130, 182);
+}
+
+.site-container > nav {
+  grid-area: nav;
+  background-color: rgb(161, 187, 117);
+}
+
+.site-container > .content-container {
+  grid-area: content;
+  background-color: rgb(97, 150, 199);
+}
+
+.site-container > footer {
+  grid-area: footer;
+  background-color: rgb(201, 127, 176);
+}
