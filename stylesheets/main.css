@@ -46,17 +46,16 @@ h1#name {
   font-family: 'Source Code Pro', monospace;
 }
 
-li.font-color a{
+li.font-color a, footer li.font-color a{
   text-decoration: none;
 }
 
-nav li.font-color a{
+nav li.font-color a, footer li.font-color a{
   color: black;
   transition: color 0.5s ease;
-
 }
 
-nav li.font-color:hover a{
+nav li.font-color:hover a, footer li.font-color:hover a{
   color: rgb(107, 170, 177);
 }
 
@@ -147,4 +146,9 @@ footer ul {
   font-size: 1em;
   padding-left: 2em;
   margin: 1em 3em;
+}
+
+footer a[href] {
+  text-decoration: none;
+  color: black;
 }
