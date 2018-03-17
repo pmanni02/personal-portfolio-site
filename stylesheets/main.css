@@ -46,6 +46,20 @@ h1#name {
   font-family: 'Source Code Pro', monospace;
 }
 
+li.font-color a{
+  text-decoration: none;
+}
+
+nav li.font-color a{
+  color: black;
+  transition: color 0.5s ease;
+
+}
+
+nav li.font-color:hover a{
+  color: rgb(107, 170, 177);
+}
+
 /* NAV SECTION */
 nav ul {
   display: flex;
@@ -75,7 +89,7 @@ section.content-container {
 .content-container div#quote {
   grid-area: quote;
   margin: 0 2em 2em 2em;
-  border: black dashed 1px;
+  border-top: 1px rgb(199, 214, 224) solid;
 }
 
 .content-container div.flex-container {
@@ -102,6 +116,9 @@ blockquote {
   margin-left: 5em;
   margin-right: 5em;
   text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 17px;
+  padding-top: 2em;
 }
 
 /* FOOTER SECTION */
