@@ -1,1 +1,35 @@
 
+section.content-container {
+  display: grid;
+  grid-template-areas:
+    "title"
+    "content1"
+    "content2"
+    "content3";
+    grid-template-columns: auto;
+    grid-template-rows: 1fr repeat(3, 1fr);
+}
+
+section h3#title {
+  grid-area: title;
+}
+
+section div#content-item1 {
+  grid-area: content1;
+}
+
+section div#content-item2 {
+  grid-area: content2;
+}
+
+section div#content-item3 {
+  grid-area: content3;
+}
+
+section > .content-item{
+  margin: 1em 1em 1em 1em;
+}
+
+section.content-container .content-item {
+  border: black solid 1px;
+}
