@@ -1,4 +1,4 @@
-
+/* SITE CONTAINER */
 section.content-container {
   display: flex;
   flex-direction: column;
@@ -11,5 +11,39 @@ section > .content-item{
 }
 
 section.content-container .content-item {
-  border: black solid 1px;
+  /* border: black solid 1px; */
+}
+
+/* CONTENT SECTION */
+
+section div.content-item {
+  display: grid;
+  grid-template-areas:
+    "section-title link"
+    "section-p section-p";
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 10% 90%;
+  padding: 0em 1em 0em 2em;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+section.content-container h3 {
+  padding-right: 2em;
+  margin-top: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+div.content-item > h4 {
+  grid-area: section-title;
+  margin: 1em 0;
+}
+
+div.content-item p:nth-of-type(1) {
+  grid-area: link;
+  text-align: right;
+  padding-right: 1em;
+}
+
+div.content-item p:nth-of-type(2) {
+  grid-area: section-p;
 }
