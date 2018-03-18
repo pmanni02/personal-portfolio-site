@@ -40,12 +40,6 @@ body {
   border-bottom: 1px rgb(199, 214, 224) solid;
 }
 
-/* HEADER SECTION */
-h1#name {
-  font-size: 4rem;
-  font-family: 'Source Code Pro', monospace;
-}
-
 li.font-color a, footer li.font-color a{
   text-decoration: none;
 }
@@ -57,6 +51,12 @@ nav li.font-color a, footer li.font-color a{
 
 nav li.font-color:hover a, footer li.font-color:hover a{
   color: rgb(107, 170, 177);
+}
+
+/* HEADER SECTION */
+h1#name {
+  font-size: 4rem;
+  font-family: 'Source Code Pro', monospace;
 }
 
 /* NAV SECTION */
@@ -101,12 +101,12 @@ img#img1, img#img2, img#img3 {
   margin: 2em 1em 1em 1em;
   height: 350px;
   width: 350px;
-  opacity: 0.75;
-  transition: opacity 0.5s ease;
+  /* opacity: 0.75;
+  transition: opacity 0.5s ease; */
 }
 
 img#img1:hover, img#img2:hover, img#img3:hover {
-  opacity: 1.0;
+  /* opacity: 1.0; */
 }
 
 .content-container > div#quote {
