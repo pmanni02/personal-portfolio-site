@@ -101,6 +101,12 @@ img#img1, img#img2, img#img3 {
   margin: 2em 1em 1em 1em;
   height: 350px;
   width: 350px;
+  opacity: 0.75;
+  transition: opacity 0.5s ease;
+}
+
+img#img1:hover, img#img2:hover, img#img3:hover {
+  opacity: 1.0;
 }
 
 .content-container > div#quote {
