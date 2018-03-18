@@ -1,0 +1,39 @@
+/* SITE CONTAINER */
+section.content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section > .content-item{
+  margin: 1em 1em 1em 1em;
+}
+
+/* CONTENT SECTION */
+section .content-item {
+  display: grid;
+  grid-template-areas:
+    "picture"
+    "title"
+    "statement";
+  grid-template-rows: 2fr 1fr auto;
+  padding: 0em 1em 0em 2em;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+section img.content-item {
+  grid-area: picture;
+  border-radius: 50%;
+}
+
+section h3.content-item {
+  grid-area: title;
+  font-style: normal;
+  margin-top: 2em;
+}
+
+section div.content-item p {
+  grid-area: statement;
+  line-height: 2;
+}
