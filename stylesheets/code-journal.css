@@ -63,4 +63,11 @@ section div.content-item {
 
 section div > p {
   line-height: 1.5;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+p.shadow:hover {
+  transform: scale(1.1, 1.1);
+  color: rgb(43, 129, 168);
 }

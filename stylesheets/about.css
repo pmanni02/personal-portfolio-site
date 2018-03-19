@@ -36,6 +36,7 @@ section h3.content-item {
   grid-area: title;
   font-style: normal;
   margin-top: 2em;
+  padding-right: 1em;
 }
 
 section div.content-item p {
