@@ -110,7 +110,7 @@ img#img1, img#img2, img#img3 {
   font-size: 2em;
 }
 
-.img-container .text p {
+.img-container .text h6 {
   margin: 0;
   font-family: 'Source Sans Pro', sans-serif;
 }
