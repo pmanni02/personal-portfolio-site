@@ -6,7 +6,6 @@ body {
 /* SITE GRID LAYOUT */
 .site-container {
   display: grid;
-  /* width: 100%; */
   grid-template-areas:
     "header"
     "nav"
@@ -44,6 +43,13 @@ li.font-color a, footer li.font-color a{
   text-decoration: none;
 }
 
+/* HEADER SECTION */
+h1#name {
+  font-size: 4rem;
+  font-family: 'Source Code Pro', monospace;
+}
+
+/* NAV BAR ANIMATION */
 nav li.font-color a, footer li.font-color a{
   color: black;
   transition: color 0.5s ease;
@@ -51,12 +57,6 @@ nav li.font-color a, footer li.font-color a{
 
 nav li.font-color:hover a, footer li.font-color:hover a{
   color: rgb(107, 170, 177);
-}
-
-/* HEADER SECTION */
-h1#name {
-  font-size: 4rem;
-  font-family: 'Source Code Pro', monospace;
 }
 
 /* NAV SECTION */
@@ -101,16 +101,6 @@ img#img1, img#img2, img#img3 {
   margin: 2em 1em 1em 1em;
   height: 350px;
   width: 350px;
-  /* opacity: 0.75;
-  transition: opacity 0.5s ease; */
-}
-
-img#img1:hover, img#img2:hover, img#img3:hover {
-  /* opacity: 1.0; */
-}
-
-.content-container > div#quote {
-  /* border: 1px solid black; */
 }
 
 .img-container .text {

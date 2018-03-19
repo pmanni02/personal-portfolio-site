@@ -10,10 +10,6 @@ section > .content-item{
   margin: 1em 1em 1em 1em;
 }
 
-section.content-container .content-item {
-  /* border:black solid 1px; */
-}
-
 section.site-container {
   grid-template-rows: 1fr auto auto auto;
 }
@@ -28,7 +24,6 @@ section .content-item {
     "post3"
     "post4";
   grid-template-rows: 1fr repeat(4, auto);
-  /* grid-template-columns: 10% 90%; */
   padding: 0em 1em 0em 2em;
   font-family: 'Source Sans Pro', sans-serif;
 }

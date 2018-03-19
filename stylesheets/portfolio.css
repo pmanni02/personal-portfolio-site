@@ -10,10 +10,6 @@ section > .content-item{
   margin: 1em 1em 1em 1em;
 }
 
-section.content-container .content-item {
-  /* border: black solid 1px; */
-}
-
 /* CONTENT SECTION */
 
 section div.content-item {
