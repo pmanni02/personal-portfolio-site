@@ -10,11 +10,6 @@ section > .content-item{
   margin: 1em 1em 1em 1em;
 }
 
-/* NAV SECTION */
-nav {
-  padding-left: 5em;
-}
-
 /* CONTENT SECTION */
 section .content-item {
   display: grid;
